@@ -24,5 +24,12 @@ namespace WpfApp5
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            DocumentViewerWindow documentViewerWindow = new DocumentViewerWindow();
+            //documentViewerWindow.Show();
+            documentViewerWindow.ShowDialog();
+        }
     }
 }
